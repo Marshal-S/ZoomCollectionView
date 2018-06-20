@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3BE3C9320DA36D700D53891 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3BE3C9220DA36D700D53891 /* AppDelegate.m */; };
+		F3BE3C9620DA36D700D53891 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3BE3C9520DA36D700D53891 /* ViewController.m */; };
+		F3BE3C9920DA36D700D53891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3BE3C9720DA36D700D53891 /* Main.storyboard */; };
+		F3BE3C9B20DA36D900D53891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3BE3C9A20DA36D900D53891 /* Assets.xcassets */; };
+		F3BE3C9E20DA36D900D53891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3BE3C9C20DA36D900D53891 /* LaunchScreen.storyboard */; };
+		F3BE3CA120DA36D900D53891 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3BE3CA020DA36D900D53891 /* main.m */; };
+		F3BE3CAB20DA36D900D53891 /* ZoomCollectionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3BE3CAA20DA36D900D53891 /* ZoomCollectionViewTests.m */; };
+		F3BE3CB620DA36DA00D53891 /* ZoomCollectionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3BE3CB520DA36DA00D53891 /* ZoomCollectionViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3BE3CA720DA36D900D53891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3BE3C8620DA36D600D53891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3BE3C8D20DA36D600D53891;
+			remoteInfo = ZoomCollectionView;
+		};
+		F3BE3CB220DA36DA00D53891 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3BE3C8620DA36D600D53891 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3BE3C8D20DA36D600D53891;
+			remoteInfo = ZoomCollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3BE3C8E20DA36D600D53891 /* ZoomCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BE3C9120DA36D700D53891 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F3BE3C9220DA36D700D53891 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F3BE3C9420DA36D700D53891 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F3BE3C9520DA36D700D53891 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F3BE3C9820DA36D700D53891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F3BE3C9A20DA36D900D53891 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3BE3C9D20DA36D900D53891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F3BE3C9F20DA36D900D53891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3BE3CA020DA36D900D53891 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F3BE3CA620DA36D900D53891 /* ZoomCollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoomCollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BE3CAA20DA36D900D53891 /* ZoomCollectionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZoomCollectionViewTests.m; sourceTree = "<group>"; };
+		F3BE3CAC20DA36D900D53891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3BE3CB120DA36DA00D53891 /* ZoomCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZoomCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3BE3CB520DA36DA00D53891 /* ZoomCollectionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZoomCollectionViewUITests.m; sourceTree = "<group>"; };
+		F3BE3CB720DA36DA00D53891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3BE3C8B20DA36D600D53891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BE3CA320DA36D900D53891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BE3CAE20DA36DA00D53891 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3BE3C8520DA36D600D53891 = {
+			isa = PBXGroup;
+			children = (
+				F3BE3C9020DA36D700D53891 /* ZoomCollectionView */,
+				F3BE3CA920DA36D900D53891 /* ZoomCollectionViewTests */,
+				F3BE3CB420DA36DA00D53891 /* ZoomCollectionViewUITests */,
+				F3BE3C8F20DA36D700D53891 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3BE3C8F20DA36D700D53891 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3BE3C8E20DA36D600D53891 /* ZoomCollectionView.app */,
+				F3BE3CA620DA36D900D53891 /* ZoomCollectionViewTests.xctest */,
+				F3BE3CB120DA36DA00D53891 /* ZoomCollectionViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3BE3C9020DA36D700D53891 /* ZoomCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				F3BE3C9120DA36D700D53891 /* AppDelegate.h */,
+				F3BE3C9220DA36D700D53891 /* AppDelegate.m */,
+				F3BE3C9420DA36D700D53891 /* ViewController.h */,
+				F3BE3C9520DA36D700D53891 /* ViewController.m */,
+				F3BE3C9720DA36D700D53891 /* Main.storyboard */,
+				F3BE3C9A20DA36D900D53891 /* Assets.xcassets */,
+				F3BE3C9C20DA36D900D53891 /* LaunchScreen.storyboard */,
+				F3BE3C9F20DA36D900D53891 /* Info.plist */,
+				F3BE3CA020DA36D900D53891 /* main.m */,
+			);
+			path = ZoomCollectionView;
+			sourceTree = "<group>";
+		};
+		F3BE3CA920DA36D900D53891 /* ZoomCollectionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3BE3CAA20DA36D900D53891 /* ZoomCollectionViewTests.m */,
+				F3BE3CAC20DA36D900D53891 /* Info.plist */,
+			);
+			path = ZoomCollectionViewTests;
+			sourceTree = "<group>";
+		};
+		F3BE3CB420DA36DA00D53891 /* ZoomCollectionViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3BE3CB520DA36DA00D53891 /* ZoomCollectionViewUITests.m */,
+				F3BE3CB720DA36DA00D53891 /* Info.plist */,
+			);
+			path = ZoomCollectionViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3BE3C8D20DA36D600D53891 /* ZoomCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3BE3CBA20DA36DA00D53891 /* Build configuration list for PBXNativeTarget "ZoomCollectionView" */;
+			buildPhases = (
+				F3BE3C8A20DA36D600D53891 /* Sources */,
+				F3BE3C8B20DA36D600D53891 /* Frameworks */,
+				F3BE3C8C20DA36D600D53891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZoomCollectionView;
+			productName = ZoomCollectionView;
+			productReference = F3BE3C8E20DA36D600D53891 /* ZoomCollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3BE3CA520DA36D900D53891 /* ZoomCollectionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3BE3CBD20DA36DA00D53891 /* Build configuration list for PBXNativeTarget "ZoomCollectionViewTests" */;
+			buildPhases = (
+				F3BE3CA220DA36D900D53891 /* Sources */,
+				F3BE3CA320DA36D900D53891 /* Frameworks */,
+				F3BE3CA420DA36D900D53891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3BE3CA820DA36D900D53891 /* PBXTargetDependency */,
+			);
+			name = ZoomCollectionViewTests;
+			productName = ZoomCollectionViewTests;
+			productReference = F3BE3CA620DA36D900D53891 /* ZoomCollectionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3BE3CB020DA36DA00D53891 /* ZoomCollectionViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3BE3CC020DA36DA00D53891 /* Build configuration list for PBXNativeTarget "ZoomCollectionViewUITests" */;
+			buildPhases = (
+				F3BE3CAD20DA36DA00D53891 /* Sources */,
+				F3BE3CAE20DA36DA00D53891 /* Frameworks */,
+				F3BE3CAF20DA36DA00D53891 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3BE3CB320DA36DA00D53891 /* PBXTargetDependency */,
+			);
+			name = ZoomCollectionViewUITests;
+			productName = ZoomCollectionViewUITests;
+			productReference = F3BE3CB120DA36DA00D53891 /* ZoomCollectionViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3BE3C8620DA36D600D53891 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Marshal;
+				TargetAttributes = {
+					F3BE3C8D20DA36D600D53891 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					F3BE3CA520DA36D900D53891 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = F3BE3C8D20DA36D600D53891;
+					};
+					F3BE3CB020DA36DA00D53891 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = F3BE3C8D20DA36D600D53891;
+					};
+				};
+			};
+			buildConfigurationList = F3BE3C8920DA36D600D53891 /* Build configuration list for PBXProject "ZoomCollectionView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3BE3C8520DA36D600D53891;
+			productRefGroup = F3BE3C8F20DA36D700D53891 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3BE3C8D20DA36D600D53891 /* ZoomCollectionView */,
+				F3BE3CA520DA36D900D53891 /* ZoomCollectionViewTests */,
+				F3BE3CB020DA36DA00D53891 /* ZoomCollectionViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3BE3C8C20DA36D600D53891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BE3C9E20DA36D900D53891 /* LaunchScreen.storyboard in Resources */,
+				F3BE3C9B20DA36D900D53891 /* Assets.xcassets in Resources */,
+				F3BE3C9920DA36D700D53891 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BE3CA420DA36D900D53891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BE3CAF20DA36DA00D53891 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3BE3C8A20DA36D600D53891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BE3C9620DA36D700D53891 /* ViewController.m in Sources */,
+				F3BE3CA120DA36D900D53891 /* main.m in Sources */,
+				F3BE3C9320DA36D700D53891 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BE3CA220DA36D900D53891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BE3CAB20DA36D900D53891 /* ZoomCollectionViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3BE3CAD20DA36DA00D53891 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BE3CB620DA36DA00D53891 /* ZoomCollectionViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3BE3CA820DA36D900D53891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3BE3C8D20DA36D600D53891 /* ZoomCollectionView */;
+			targetProxy = F3BE3CA720DA36D900D53891 /* PBXContainerItemProxy */;
+		};
+		F3BE3CB320DA36DA00D53891 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3BE3C8D20DA36D600D53891 /* ZoomCollectionView */;
+			targetProxy = F3BE3CB220DA36DA00D53891 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F3BE3C9720DA36D700D53891 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3BE3C9820DA36D700D53891 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F3BE3C9C20DA36D900D53891 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F3BE3C9D20DA36D900D53891 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F3BE3CB820DA36DA00D53891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F3BE3CB920DA36DA00D53891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3BE3CBB20DA36DA00D53891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZoomCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QiYingliTechnology.ZoomCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3BE3CBC20DA36DA00D53891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZoomCollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QiYingliTechnology.ZoomCollectionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3BE3CBE20DA36DA00D53891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZoomCollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QiYingliTechnology.ZoomCollectionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZoomCollectionView.app/ZoomCollectionView";
+			};
+			name = Debug;
+		};
+		F3BE3CBF20DA36DA00D53891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZoomCollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QiYingliTechnology.ZoomCollectionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZoomCollectionView.app/ZoomCollectionView";
+			};
+			name = Release;
+		};
+		F3BE3CC120DA36DA00D53891 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZoomCollectionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QiYingliTechnology.ZoomCollectionViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZoomCollectionView;
+			};
+			name = Debug;
+		};
+		F3BE3CC220DA36DA00D53891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZoomCollectionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.QiYingliTechnology.ZoomCollectionViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZoomCollectionView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3BE3C8920DA36D600D53891 /* Build configuration list for PBXProject "ZoomCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BE3CB820DA36DA00D53891 /* Debug */,
+				F3BE3CB920DA36DA00D53891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3BE3CBA20DA36DA00D53891 /* Build configuration list for PBXNativeTarget "ZoomCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BE3CBB20DA36DA00D53891 /* Debug */,
+				F3BE3CBC20DA36DA00D53891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3BE3CBD20DA36DA00D53891 /* Build configuration list for PBXNativeTarget "ZoomCollectionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BE3CBE20DA36DA00D53891 /* Debug */,
+				F3BE3CBF20DA36DA00D53891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3BE3CC020DA36DA00D53891 /* Build configuration list for PBXNativeTarget "ZoomCollectionViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3BE3CC120DA36DA00D53891 /* Debug */,
+				F3BE3CC220DA36DA00D53891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3BE3C8620DA36D600D53891 /* Project object */;
+}
