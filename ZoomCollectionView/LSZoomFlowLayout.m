@@ -73,7 +73,7 @@ static CGFloat defalutLineSpacing = 30;//两个item之间的最小间距
 }
 
 - (void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
-    if (!decelerate) [self handleItemCenter];
+    if (decelerate) [self handleItemCenter];
 }
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
