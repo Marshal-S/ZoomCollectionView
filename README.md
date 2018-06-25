@@ -1,1 +1,4 @@
 # ZoomCollectionView
+
+一款基于collectionView的横向滚动的有伪放大缩小效果的视图
+定制基于UICollectionViewFlowLayout，详情可以参考代码对应的文件
