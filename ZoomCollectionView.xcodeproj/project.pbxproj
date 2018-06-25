@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F39D6E5320DBA71700745472 /* LSZoomFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = F39D6E5220DBA71700745472 /* LSZoomFlowLayout.m */; };
 		F3BE3C9320DA36D700D53891 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3BE3C9220DA36D700D53891 /* AppDelegate.m */; };
 		F3BE3C9620DA36D700D53891 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3BE3C9520DA36D700D53891 /* ViewController.m */; };
 		F3BE3C9920DA36D700D53891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3BE3C9720DA36D700D53891 /* Main.storyboard */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F39D6E5120DBA71700745472 /* LSZoomFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSZoomFlowLayout.h; sourceTree = "<group>"; };
+		F39D6E5220DBA71700745472 /* LSZoomFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSZoomFlowLayout.m; sourceTree = "<group>"; };
 		F3BE3C8E20DA36D600D53891 /* ZoomCollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomCollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BE3C9120DA36D700D53891 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F3BE3C9220DA36D700D53891 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				F3BE3C9220DA36D700D53891 /* AppDelegate.m */,
 				F3BE3C9420DA36D700D53891 /* ViewController.h */,
 				F3BE3C9520DA36D700D53891 /* ViewController.m */,
+				F39D6E5120DBA71700745472 /* LSZoomFlowLayout.h */,
+				F39D6E5220DBA71700745472 /* LSZoomFlowLayout.m */,
 				F3BE3C9720DA36D700D53891 /* Main.storyboard */,
 				F3BE3C9A20DA36D900D53891 /* Assets.xcassets */,
 				F3BE3C9C20DA36D900D53891 /* LaunchScreen.storyboard */,
@@ -265,6 +270,7 @@
 				F3BE3C9620DA36D700D53891 /* ViewController.m in Sources */,
 				F3BE3CA120DA36D900D53891 /* main.m in Sources */,
 				F3BE3C9320DA36D700D53891 /* AppDelegate.m in Sources */,
+				F39D6E5320DBA71700745472 /* LSZoomFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,14 +439,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 439K9F32X7;
 				INFOPLIST_FILE = ZoomCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.QiYingliTechnology.ZoomCollectionView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.QiYingliTechnology.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ecd031cc-9022-41bc-ae5a-1d7747daf8a9";
+				PROVISIONING_PROFILE_SPECIFIER = Test_dev_prov;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -449,14 +459,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 439K9F32X7;
 				INFOPLIST_FILE = ZoomCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.QiYingliTechnology.ZoomCollectionView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.QiYingliTechnology.Test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ecd031cc-9022-41bc-ae5a-1d7747daf8a9";
+				PROVISIONING_PROFILE_SPECIFIER = Test_dev_prov;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
